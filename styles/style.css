@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+:root{
+  --color-base:#F0F2F7;
+  --color-primary:#8257E5;
+  --color-secondary:#04D361;
+  --color-white:#FFFFFF;
+  --color-text:#5D5D5D;
+}
+
+*{
+  margin: 0;
+  padding:0;
+}
+
+body{
+  width: 100%;
+  margin: 0 auto;
+  padding: 5rem 0;
+  background-color: var(--color-base);
+}
+div .header{
+   position: relative;
+  text-align: center;
+
+}
+.menu{
+  list-style-type: none;
+  display: flex; 
+}
+
+.menu li{
+   letter-spacing:3px;
+   margin-left: 32px;
+}
+
+ a {
+  text-decoration:none;
+  color: var(--color-text) ;
+  font-family:'Inter', sans-serif;
+  transition: 0.3s;
+}
+
+a:hover{
+  opacity: 0.7;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo{
+  font-family: 'Josefin Sans', sans-serif;
+  color: var(--color-text);
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+button{
+  width: 84px;
+  height:41px;
+  border-radius: 6px;
+}
+
+.button .login{
+  background-color:none;
+  border-color:var(--color-primary);
+  color: var(--color-primary);
+}
+
+.button .registration{
+  background-color: var(--color-primary);
+  border-color:var(--color-primary);
+  color: var(--color-white);
+}
+
+.content-invite{
+  display: inline-block;
+  width: 50%;
+}
+
+h1{
+  font-family: Playfair Display;
+  font-size: 50px;
+  color: var(--color-text);
+  position: relative;
+
+}
+
+.img-home{
+    width: 50%;
+    height: 700px;
+    display:flex;
+}
+
+
+
+
