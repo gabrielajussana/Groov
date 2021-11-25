@@ -26,6 +26,24 @@ h1, h2{
   line-height: normal;
   font-variant: small-caps;
   text-align: center;
+  color: var(--color-text);
+}
+
+ span{
+  color: #d4d5d5;
+  font-size: 38px;
+  font: Crimson;
+  font-variant: small-caps;
+  line-height: normal;
+  text-align: center;
+}
+
+p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .about .what-is{
@@ -38,7 +56,10 @@ a {
   text-decoration: none;
   transition: 0.3s;
 }
-
+.about {
+  text-align: center;
+  font-size: 16px;
+}
 a:hover {
   opacity: 0.7;
 }
@@ -48,7 +69,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  font-family:Crimson;
   background: var(--color-black);
   height: 50px;
   
