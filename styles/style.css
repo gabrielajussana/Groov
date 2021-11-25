@@ -20,19 +20,24 @@ body{
   background-color: var(--color-black);
   color:var(--color-white);
 }
+
+.img-inicio{
+  text-align: center;
+}
+
 h1, h2{
-  font: Crimson;
+  font-family: Crimson;
   font-size: 38px;
   line-height: normal;
   font-variant: small-caps;
-  text-align: center;
+  text-align:center;
   color: var(--color-text);
 }
 
  span{
   color: #d4d5d5;
   font-size: 38px;
-  font: Crimson;
+  font-family: Crimson;
   font-variant: small-caps;
   line-height: normal;
   text-align: center;
@@ -51,7 +56,7 @@ p{
   font-size: 30px;
 }
 
-a {
+a{
   color: #fff;
   text-decoration: none;
   transition: 0.3s;
@@ -59,9 +64,10 @@ a {
 .about {
   text-align: center;
   font-size: 16px;
+  margin: 50px;
 }
 a:hover {
-  opacity: 0.7;
+  color: var(--color-primary);
 }
 
 
@@ -72,12 +78,9 @@ nav {
   font-family:Crimson;
   background: var(--color-black);
   height: 50px;
-  
-  
 }
 
 main {
-  background: url("bg.jpg") no-repeat center center;
   background-size: cover;
   height: 92vh;
 }
@@ -134,7 +137,62 @@ main {
 .nav-list.active {
   transform: translateX(0);
 }
+.section-title{
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+article{
+  border: 2px solid var(--color-text);
+  margin-top: 30px;
+}
+.functionalities{
+  font-size: 16px;
+  position: relative;
+  margin: 10px auto 30px;
+  max-width: 900px;
+}
 
+h3{
+  margin: 20px;
+}
+.right{
+  text-align: right;
+  margin-right: 20px;
+}
+.left{
+  text-align: left;
+  margin-left: 20px;
+}
+.functionalities .desc{
+  position: relative;
+  min-height:217px ;
+}
+.functionalities .desc p{
+  position: relative;
+  z-index: 9;
+}
+p {
+  margin: 0 0 10px;
+  box-sizing: border-box;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; 
+}
+
+.img-metas{
+  display: inline-block;
+  float:left;
+}
+
+.img-metas img{
+  width: 200px;
+  height: 200px;
+}
+footer{
+  background-color: var(--color-primary);
+}
 @keyframes navLinkFade {
   from {
     opacity: 0;
