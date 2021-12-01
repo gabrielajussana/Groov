@@ -163,6 +163,7 @@ h3{
   text-align: left;
   margin-left: 20px;
 }
+
 .functionalities .desc{
   position: relative;
   min-height:217px ;
@@ -181,18 +182,69 @@ p {
   margin-inline-end: 0px; 
 }
 
-.img-metas{
+.img-metas, .img-dia{
   display: inline-block;
   float:left;
 }
 
-.img-metas img{
+.img-humor, .img-mensagem {
+  display: inline-block;
+  float: right;
+}
+
+
+.img-metas img, .img-humor img, .img-dia img, .img-mensagem img{
   width: 200px;
   height: 200px;
 }
-footer{
-  background-color: var(--color-primary);
+.title-humor, .title-mensagem{
+  text-align: right;
 }
+footer{
+  background-color:var(--color-base);
+  width: 100%;
+  height: 300px;
+}
+.menu-footer{
+  display: flex;
+  text-align: center;
+  position:relative;
+}
+.footer .contato{
+  color: var(--color-black);
+  list-style: none;
+  align-items: center;
+  width: 38%;
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+}
+
+.footer .about-us{
+  width: 38%;
+  display: inline-block;
+  text-align: center;
+  color: var(--color-black);
+  align-items: center;
+}
+
+.footer .about-us h3{
+  font-size: 30px;
+  margin: 0;
+}
+
+.footer .contato ul{
+  padding: 10px;
+}
+
+.logo-footer h2{
+  color: var(--color-black);
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 20px;
+  align-items: center;
+  margin: 30px
+}
+
 @keyframes navLinkFade {
   from {
     opacity: 0;
